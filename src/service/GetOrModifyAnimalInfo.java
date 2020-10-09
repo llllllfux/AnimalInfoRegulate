@@ -1,10 +1,7 @@
 package service;
 
-import domain.*;
 
-import java.util.Collection;
 import java.util.LinkedHashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -12,7 +9,7 @@ import java.util.Scanner;
  * @author xuxingjun
  * @data 2020/9/30  -  20:40
  */
-public class AMUtility {
+public class GetOrModifyAnimalInfo {
 
 
     /**
@@ -20,7 +17,7 @@ public class AMUtility {
      * 数据不符合则重新输入
      * @return
      */
-    public static String genderAdd() {
+    public String genderAdd() {
         Scanner readGender = new Scanner(System.in);
         System.out.println("请输入性别(雌、雄）：");
         String theGender = readGender.nextLine();
@@ -44,7 +41,7 @@ public class AMUtility {
      * 输入其他数据提示数据错误，重新输入
      * @return
      */
-    public static int ageAdd() {
+    public int ageAdd() {
         Scanner readAge = new Scanner(System.in);
         System.out.println("请输入年龄：");
         int theAge;
@@ -71,7 +68,7 @@ public class AMUtility {
      *
      * @return
      */
-    public static String speciesAdd() {
+    public String speciesAdd() {
         Scanner readSpecies = new Scanner(System.in);
         System.out.println("请输入物种：");
         String thespecies = readSpecies.nextLine();
@@ -92,7 +89,7 @@ public class AMUtility {
      * 获取性别修改信息
      * @return
      */
-    public static String genderModify() {
+    public String genderModify() {
         return genderAdd();
     }
 
@@ -100,7 +97,7 @@ public class AMUtility {
      * 获取年龄修改信息
      * @return
      */
-    public static int ageModify() {
+    public int ageModify() {
         return ageAdd();
     }
 
@@ -108,7 +105,7 @@ public class AMUtility {
      * 获取物种修改信息
      * @return
      */
-    public static String speciesModify() {
+    public String speciesModify() {
         return speciesAdd();
     }
 
@@ -118,7 +115,7 @@ public class AMUtility {
      * @param map
      * @return
      */
-    public static LinkedHashMap getAnimalFieldMap(LinkedHashMap<String, String> map) {
+    public LinkedHashMap getAnimalFieldMap(LinkedHashMap<String, String> map) {
         do {
             System.out.println("是否要添加新的属性（Y/N）：");
             if ('Y' == TSUtility.readConfirmSelection()) {

@@ -1,5 +1,7 @@
 package service;
 
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -72,6 +74,54 @@ public class TSUtility {
                 + '\n' + "7-退出 " +
                 + '\n' + "请选择(1-7)：");
         System.out.println();
+    }
+
+    /**
+     * 判断集合中元素是否存在
+     * 不存在返回-1
+     * 存在返回元素索引
+     * @param a
+     * @param index
+     * @return
+     */
+    public static int isExist(ArrayList a, int index) {
+        if (index < 0 || index >= a.size()) {
+            return -1;
+        } else {
+            return index;
+        }
+    }
+
+    /**
+     * 复制一个和start集合元素一样的集合end
+     * 返回此集合
+     * @param start
+     * @param end
+     * @param <T>
+     * @return
+     */
+    public static<T> ArrayList<T> copy(ArrayList<T> start, ArrayList<T> end) {
+        end.addAll(0, start);
+        return end;
+    }
+
+    /**
+     * 查看形参animal是否与animals集合中元素一样
+     * 将一样的元素放入放新集合中
+     * 返回新集合的长度
+     * 若不存在相同元素则新集合长度为 0
+     * @param arrayList
+     * @param t
+     * @param <T>
+     * @return
+     */
+    public static<T>  int duplicationRemove(ArrayList<T> arrayList,T t){
+        ArrayList<T> animalIsUnique = new ArrayList<T>(1);
+        animalIsUnique.add(t);
+        ArrayList<T> animalArrayListCopy = copy(arrayList, new ArrayList<T>());
+        animalArrayListCopy.retainAll(animalIsUnique);
+        return animalArrayListCopy.size();
+
     }
 
 }
