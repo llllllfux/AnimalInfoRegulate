@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc042392-18f4-489c-86a7-2c8bb8c43af9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/myTask/view/AnimalInfoRegulate.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/view/AnimalInfoRegulate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/myTask/service/TSUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTask/service/TSUtility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/myTask/view/MainView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTask/view/MainView$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/myTask/view/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTask/view/MainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/TSUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/TSUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AnimalRegulate-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -119,6 +119,7 @@
       <workItem from="1602253214525" duration="967000" />
       <workItem from="1602662743055" duration="8315000" />
       <workItem from="1602672312071" duration="554000" />
+      <workItem from="1602673426917" duration="167000" />
     </task>
     <servers />
   </component>
