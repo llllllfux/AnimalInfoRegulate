@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc042392-18f4-489c-86a7-2c8bb8c43af9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/ArrayOfAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/AnimalInfoRegulate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myTask/service/AMUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myTask/service/ArrayOfAnimal.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/myTask/service/TSUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTask/service/TSUtility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/myTask/view/MainView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTask/view/MainView$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/myTask/view/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myTask/view/MainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/AMUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/GetOrModifyAnimalInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/ArrayOfAnimal.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/TSUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/TSUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainView.java" afterDir="false" />
     </list>
@@ -37,7 +31,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AnimalRegulate-master" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,7 +50,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AnimalInfoRegulate">
+    <configuration name="AnimalInfoRegulate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.AnimalInfoRegulate" />
+      <module name="myTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="view.MainView" />
       <module name="myTask" />
@@ -70,8 +77,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.test" />
+      <module name="myTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalInfoRegulate" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.MainView" />
       </list>
     </recent_temporary>
@@ -94,7 +116,9 @@
       <workItem from="1601711929711" duration="122000" />
       <workItem from="1601789736101" duration="1603000" />
       <workItem from="1602210560999" duration="4222000" />
-      <workItem from="1602253214525" duration="257000" />
+      <workItem from="1602253214525" duration="967000" />
+      <workItem from="1602662743055" duration="8315000" />
+      <workItem from="1602672312071" duration="554000" />
     </task>
     <servers />
   </component>

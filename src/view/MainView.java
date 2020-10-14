@@ -6,6 +6,8 @@ import service.GetOrModifyAnimalInfo;
 import domain.ArrayOfAnimal;
 import service.TSUtility;
 
+import javax.swing.*;
+import java.awt.*;
 import java.util.*;
 
 
@@ -21,7 +23,7 @@ public class MainView {
 
 
     public void enterMainMenu() {
-
+        JOptionPane.showMessageDialog(null,"让我们开始吧！！");
         System.out.println("-----------------------动物信息管理-----------------------------" + '\n');
         boolean flag = true;
         do {
@@ -62,10 +64,12 @@ public class MainView {
                     break;
                 case 7:
                     System.out.println("是否退出（Y/N）:");
-                    if ('Y' == TSUtility.readConfirmSelection())
+                    if ('Y' == TSUtility.readConfirmSelection()) {
                         flag = false;
-                    break;
-
+                        JOptionPane.showMessageDialog(null, "感谢使用，再见！！");
+                        Toolkit.getDefaultToolkit().beep();
+                        break;
+                    }
             }
         } while (flag);
 
@@ -296,10 +300,5 @@ public class MainView {
 
     }
 
-    public static void main(String[] args) {
 
-        MainView mainView = new MainView();
-        mainView.enterMainMenu();
-
-    }
 }
